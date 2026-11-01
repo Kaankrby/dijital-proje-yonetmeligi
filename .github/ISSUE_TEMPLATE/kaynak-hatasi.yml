@@ -1,0 +1,24 @@
+name: Kaynak / OCR hatası
+description: Kaynak metin, kod, hücre veya tablo aktarımında hata bildirin.
+labels: ["source-correction"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Belge, madde/tablo ve PDF sayfası
+      placeholder: "EK-6, Tablo ..., PDF sayfa ...; satır/sütun ..."
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Mevcut metin ve önerilen düzeltme
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Kaynak kanıtı
+      description: Resmî URL, PDF sayfası veya kaynaktan kırpım ekleyin. Kişisel bilgi paylaşmayın.
+    validations:
+      required: true

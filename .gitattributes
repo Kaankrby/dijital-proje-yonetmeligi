@@ -1,0 +1,17 @@
+# Preserve source bytes and their SHA-256 values on every platform.
+* text=auto eol=lf
+# Imported whitespace is part of the archived byte-identical snapshot.
+yonetmelik.md -text -whitespace
+ek-*.md -text -whitespace
+figures/** -text -whitespace
+sources/** -text -whitespace
+provenance/** -text -whitespace
+*.py text eol=lf
+*.yml text eol=lf
+README.md text eol=lf
+AGENTS.md text eol=lf
+CONTRIBUTING.md text eol=lf
+SOURCES.md text eol=lf
+NOTICES.md text eol=lf
+LICENSE text eol=lf
+manifest.json text eol=lf
