@@ -33,6 +33,10 @@ Kaynak belgelerdeki yayın künyesi **Resmî Gazete, 05.08.2026 / 33331**, ana m
 
 Bağımsız deponun hazırlanması sırasında 01.11.2026 tarihinde resmî adreslere canlı erişim sağlanamadı. Yayın künyesi mevcut kaynak arşivinden aktarılmıştır; sonraki değişikliklerin bulunmadığı teyit edilmemiştir.
 
+## pyRevit içinde okumak ve MCP ile kullanmak
+
+[Parametrically Compass](https://github.com/Kaankrby/Parametrically-Compass), bu kaynakların sabitlenmiş bir kopyasını taşıyan bağımsız pyRevit eklentisidir. Revit içinde çevrimdışı okuma, Türkçe arama, tablo/şekil görünümü ve ajanlar için salt okunur MCP araçları sağlar. Kurulum ZIP'i, CLI komutu ve test edilen sürümler eklentinin deposunda açıklanır. Kaynak metin katkıları bu depoda geliştirilir; eklentiyle otomatik eşitleme yoktur.
+
 ## Ajanlar ve geliştiriciler
 
 Önce [AGENTS.md](AGENTS.md) ve [SOURCES.md](SOURCES.md) okuyun. `yonetmelik.md` ve `ek-*.md` okunabilir metinlerdir. `sources/structured-annexes.json` sayfa, tablo, hücre koordinatları, OCR ve inceleme izlerini taşır; hukuki kural motoru değildir. JSON alanlarının açıklaması için [kaynak rehberine](SOURCES.md#makinece-okunabilir-dosyalar) bakın.
